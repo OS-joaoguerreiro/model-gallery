@@ -1,0 +1,19 @@
+name: "bge-large-en-v1.5"
+
+license: "mit"
+
+description: "Test BGE embedding model"
+
+urls:
+- https://huggingface.co/BAAI/bge-large-en-v1.5
+
+config_file: |
+    parameters:
+      model: bge-large-en-v1.5
+    backend: huggingface-embeddings
+    embeddings: true
+
+files:
+- filename: "bge-large-en-v1.5"
+  sha256: "51e14ed95fb897ba8eee3c6d9b5fb4323229a897caaf34053c1b7639b31c1ac4"
+  uri: "https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/pytorch_model.bin"
