@@ -4,11 +4,16 @@ license: "mit"
 urls:
 - https://huggingface.co/BAAI/bge-large-en-v1.5
 description: |
-    bge-large-en model that can be used for embeddings
+  bge-large-en model that can be used for embeddings
 
 config_file: |
-    backend: huggingface-embeddings
-    embeddings: true
-    parameters:
-      model: BAAI/bge-large-en-v1.5
-    gpu_layers: 35
+  backend: huggingface-embeddings
+  embeddings: true
+  parameters:
+    model: BAAI/bge-large-en-v1.5
+  gpu_layers: 35
+
+files:
+- filename: "pytorch_model.bin"
+  sha256: "51e14ed95fb897ba8eee3c6d9b5fb4323229a897caaf34053c1b7639b31c1ac4"
+  uri: "https://huggingface.co/BAAI/bge-large-en-v1.5/resolve/main/pytorch_model.bin"
