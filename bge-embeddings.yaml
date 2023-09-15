@@ -10,7 +10,7 @@ urls:
 config_file: |
     parameters:
       model: bge-large-en-v1.5
-    backend: huggingface-embeddings
+    backend: bert-embeddings
     embeddings: true
 
 files:
